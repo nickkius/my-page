@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1{
+    font-family: 'Ubuntu', sans-serif;
+}
+.container { 
+    max-width: 1440px;
+    margin: 0   auto;
+    padding: 0  30px;
+    gap: 30px;
+}
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.nav-link {
+color: #957554;
+font-family: 'Ubuntu' sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px;
+text-decoration: none;
+padding: 10px;
+}   
+.nav-link:hover {
+    color: black; 
+}
+.navigation{
+    display: flex;
+    gap: 50px;
+}
+.first-section {
+background-image: url(image1.png);
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.container-first {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    height: 100%;
+    gap: 50px;
+}
+.main-title {
+font-family: 'Ubuntu' sans-serif ;
+color: #FFFFFF;
+font-family: Ubuntu;
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.discription {
+font-family: 'Ubuntu' sans-serif ;
+color: #FFF;
+font-family: Ubuntu;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration: none;
+}
+.button2 {
+font-family: 'Ubuntu' sans-serif ;
+color: #FFF;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration: none;
+background-color: #DFAA5B ;
+background: url(Rectangle\ 1.png);
+width: 371px;
+height: 76px;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+margin: 10px;   
+}
+.secondary-title {
+color: #957554;
+font-family: 'Ubuntu' sans-serif;
+font-size: 45px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 50px;
+}
+.rooms-card {
+width: 630px;
+height: 500px;
+border-radius: 10px;
+overflow: hidden;
+position: relative;
+}
+.rooms-card > img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.card-title {
+    color: white;
+    font-family: 'Ubuntu';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 46px;
+    margin: 20px;
+    }
+    .button {
+font-family: 'Ubuntu' sans-serif ;
+color: #FFF;
+font-family: 'Ubuntu';
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration: none;
+background-color: #DFAA5B ;
+background: url(Rectangle\ 1.png);
+width: 244px;
+height: 76px;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+margin: 0px; 
+border-radius: 10px;
+    }
+    .button-small {
+        padding: 24px 52px 24px 56px;
+    }
+    .overlay {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #000 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;  
+    }
+    .cards-content {
+        position: relative;
+        left: -22%;
+        bottom: 140px;
+        margin: -80px; 
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .rooms-card2 {
+        width: 630px;
+        height: 500px;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+        right: -50%;
+        bottom: 500px;
+    }
+    .rooms-card2 > img {
+        max-width: 100%;
+        height: 100%;
+        object-fit:cover;
+    }
+    .cards-content2 {
+        position: relative;
+        left: 60%;
+        bottom: 422px;
+        margin: -300px; 
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-title2 {
+        color: white;
+        font-family: 'Ubuntu' sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 46px;
+        margin: 20px;
+        right: 80%;
+        }
+        .contact-us {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .button3{
+            width:  418px;
+            height: 76px;
+            flex-shrink: 0;
+            font-family: 'Ubuntu' sans-serif ;
+            color: #FFF;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-decoration: none;
+            background-color: #DFAA5B ;
+            background: url(Rectangle\ 9.png);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            margin: -10px; 
+        }
+        .third-section {
+            margin-bottom: 122px;
+        }
+        .last-section {
+            font-family: 'Ubuntu' sans-serif;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+             line-height: normal; 
+            color: #FFFFFF;
+           }
+        footer {
+            background-color: #111;
+            width: 1440px;
+            height: 459px;
+            padding: 51px 50px 0px   ;
+        }
+        .footer-content { 
+          display: flex;
+          justify-content: center;
+        }
+        .navigation2 {
+            display: flex;
+            flex-direction: column;
+            gap: 28px;
+            justify-content: space-between;
+            padding: 10px 650px 0px ;
+            margin: -135px;
+            text-decoration: none;
+        }
+        .navigation3{
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            justify-content: space-between;
+            padding: 0px 350px;
+            margin: -250px;
+            text-decoration: none;
+        }
+        .navigation3 p {
+            color: #FFF;
+            font-family: 'Ubuntu';
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-decoration: none;
+        }
+        .navigation3 a {
+            color: #FFF;
+            font-family: 'Ubuntu';
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            text-decoration: none;
+        }
+        .navigation3 a:hover {
+            color: #DFAA5B;
+        }
+        .last-section:hover {
+            color: #DFAA5B;
+        }
+       
